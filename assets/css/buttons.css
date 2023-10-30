@@ -1,0 +1,25 @@
+.button{
+    border-radius: 2px;
+    color: #FFFFFF;
+    background: #0355CC;
+    border: 1px solid #0355CC;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0.7em 2.8em;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.button:hover{
+    color: #0355CC;
+    background: transparent;
+}
+
+.button.orange{
+    border: 1px solid #FF8A1D;
+    background: #FF8A1D;
+}
+.button.orange:hover{
+    color: #FF8A1D;
+    background: transparent;
+}
