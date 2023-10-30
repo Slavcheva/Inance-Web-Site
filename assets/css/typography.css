@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather+Sans:wght@300;400;500;600;700&display=swap');
 @import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
 
 *, *:before, *:after {
@@ -8,8 +9,8 @@
 }
 
 html {
-    font: 14px/1.5 Poppins, sans-serif;
-    font-weight: 300;
+    font: 15px/1.5 Lato, sans-serif;
+    font-weight: 400;
     box-sizing: border-box;
 }
 
@@ -22,27 +23,27 @@ body, input, textarea, option, select, table, form, button {
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     font-weight: 700;
-
+    font-family: 'Merriweather Sans', sans-serif;;
 }
 
 h1 {
-    font-size: 3em;
-}
-
-h2 {
     font-size: 2.5em;
 }
 
-h3 {
-    font-size: 1.75em;
+h2 {
+    font-size: 2em;
 }
 
-h4 {
+h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    font-size: 1.3em;
+}
+
 h5 {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 h6 {
@@ -52,20 +53,18 @@ h6 {
 li{
     list-style: none;
 }
+
 a{
     text-decoration: none;
 }
 
+p{
+    font-size: 0.95em;
+}
 
 @media (min-width: 786px) {
     html {
         font-size: 16px
-    }
-}
-
-@media (min-width: 1024px) {
-    h1 {
-        font-size: 4.4em;
     }
 }
 
