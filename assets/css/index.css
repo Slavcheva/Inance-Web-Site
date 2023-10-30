@@ -1,3 +1,2 @@
-body{
-    background: #D1E2FF;
-}
+@import "typography.css";
+@import "header.css";

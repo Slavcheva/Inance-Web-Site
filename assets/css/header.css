@@ -1,0 +1,108 @@
+.site-header {
+    background: #D1E2FF;
+}
+
+.top-nav {
+    background: #000000;
+    padding: 1em;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav a {
+    color: #FFFFFF;
+}
+
+.top-nav a:hover,
+.top-nav i {
+    color: #FF8A1D;
+}
+
+.site-nav {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-nav nav {
+    display: none;
+    margin-left: auto;
+}
+
+.site-logo a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0355CC;
+    font-size: 1.5em;
+}
+
+
+
+#nav-toggle {
+    opacity: 0;
+    cursor: none;
+    position: absolute;
+    display: none;
+}
+
+.toggle-btn {
+    font-size: 2em;
+    color: #040000;
+    margin-left: auto;
+}
+
+.toggle-btn .fa-xmark {
+    display: none;
+}
+
+#nav-toggle:checked + .toggle-btn > .fa-xmark {
+    display: inline-block;
+    animation: rotate 0.3s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+#nav-toggle:checked + .toggle-btn > .fa-bars {
+    display: none;
+}
+
+#nav-toggle:checked + .toggle-btn + nav {
+    display: block;
+    background: #D1E2FF;
+    width: 100%;
+}
+
+.site-nav nav a {
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+    color: #000000;
+}
+
+.site-nav nav a:hover {
+    color: #0355CC;
+}
+
+@media screen and (min-width: 767px){
+    .toggle-btn{
+        display: none;
+    }
+    .site-nav nav{
+        display: inline-block;
+        flex-direction: row;
+    }
+    .site-nav nav ul{
+        display: flex;
+        gap: 1em;
+    }
+}
