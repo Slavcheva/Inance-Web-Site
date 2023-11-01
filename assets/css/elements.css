@@ -5,7 +5,65 @@ img{
     height: auto;
 }
 
-.feature-box img,
-.service-box img{
-    width: 20%;
+
+/*Image Boxes*/
+ul.img-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+    width: 100%;
+}
+
+ul.img-boxes li {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    flex-basis: 100%;
+    background: #FFFFFF;
+}
+
+ul.img-boxes li:hover {
+    background: #FF8A1D;
+}
+
+ul.img-boxes li:hover .box-wrapper{
+    color: #FFFFFF;
+}
+
+ul.img-boxes li:hover .box-wrapper > .img-wrapper > img{
+    filter: invert(94%) sepia(6%) saturate(22%) hue-rotate(181deg) brightness(105%) contrast(105%);
+}
+
+ul.img-boxes li .box-wrapper{
+    margin: 2em 1em;
+}
+
+ul.img-boxes li .img-wrapper{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    padding: 1em 0;
+}
+
+ul.img-boxes li .img-wrapper:before {
+    display: block;
+    content: '';
+    padding-top: 90px;
+}
+
+ul.img-boxes li .img-wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media screen and (min-width: 768px) {
+    ul.img-boxes li{
+        flex-basis: 31%;
+    }
 }

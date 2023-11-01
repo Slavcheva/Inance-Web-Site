@@ -1,8 +1,8 @@
 @import "typography.css";
 @import "header.css";
-@import "elements.css";
 @import "buttons.css";
 @import "sections.css";
+@import "elements.css";
 
 .wrapper{
     max-width: 1200px;
