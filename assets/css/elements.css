@@ -1,6 +1,6 @@
 /*Images*/
-img{
-    display:block;
+img {
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -16,31 +16,33 @@ ul.img-boxes {
 }
 
 ul.img-boxes li {
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
     display: block;
     margin: 0 auto;
     text-align: center;
     flex-basis: 100%;
     background: #FFFFFF;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    padding: 1em;
+
 }
 
 ul.img-boxes li:hover {
     background: #FF8A1D;
 }
 
-ul.img-boxes li:hover .box-wrapper{
+ul.img-boxes li:hover > a.box-wrapper {
     color: #FFFFFF;
 }
 
-ul.img-boxes li:hover .box-wrapper > .img-wrapper > img{
+ul.img-boxes li:hover a.box-wrapper > .img-wrapper > img {
     filter: invert(94%) sepia(6%) saturate(22%) hue-rotate(181deg) brightness(105%) contrast(105%);
 }
 
-ul.img-boxes li .box-wrapper{
-    margin: 2em 1em;
+ul.img-boxes li a.box-wrapper {
+    margin: 2em;
 }
 
-ul.img-boxes li .img-wrapper{
+ul.img-boxes li .img-wrapper {
     display: block;
     position: relative;
     overflow: hidden;
@@ -62,8 +64,8 @@ ul.img-boxes li .img-wrapper img {
 }
 
 
-@media screen and (min-width: 768px) {
-    ul.img-boxes li{
+@media screen and (min-width: 600px) {
+    ul.img-boxes li {
         flex-basis: 31%;
     }
 }

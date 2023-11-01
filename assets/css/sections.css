@@ -59,8 +59,32 @@
 }
 
 
+/*Contact Section*/
+.contacts-section .wrapper{
+    align-items: start;
+    padding-top: 0;
+}
 
-@media screen and (min-width: 768px) {
+.contacts-section .wrapper div{
+    width: 100%;
+}
+.contacts-section .wrapper div iframe{
+    width: 100%;
+    min-height: 22em;
+    border: 1px solid blue;
+}
+
+
+.contacts-section form input,
+.contacts-section form textarea {
+    border: none;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    padding: 0.5em 1em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width: 600px) {
     .professional-section .wrapper div,
     .about-section .wrapper div{
         flex: 1 1 48%;
@@ -70,8 +94,18 @@
     }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 992px) {
     .feature-section ul {
         margin-top: -15em;
+    }
+
+    .contacts-section .wrapper h2{
+        flex-basis: 100%;
+    }
+
+    .contacts-section .wrapper form,
+    .contacts-section .wrapper div{
+        flex-basis: 48%;
+
     }
 }

@@ -1,8 +1,10 @@
 @import "typography.css";
-@import "header.css";
 @import "buttons.css";
-@import "sections.css";
 @import "elements.css";
+@import "header.css";
+@import "sections.css";
+@import "footer.css";
+
 
 .wrapper{
     max-width: 1200px;
@@ -18,7 +20,7 @@ h2{
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .wrapper{
         padding: 6em 1em;
     }

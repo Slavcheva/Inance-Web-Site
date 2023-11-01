@@ -105,7 +105,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .top-nav,
     .site-nav{
         padding: 1em 2em;
