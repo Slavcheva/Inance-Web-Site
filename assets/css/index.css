@@ -2,6 +2,7 @@
 @import "header.css";
 @import "elements.css";
 @import "buttons.css";
+@import "sections.css";
 
 .wrapper{
     max-width: 1200px;

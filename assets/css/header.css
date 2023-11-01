@@ -5,7 +5,7 @@
 /*Navigation*/
 .top-nav {
     background: #000000;
-    padding: 1em;
+    padding: 1em 2em;
 }
 
 .top-nav ul {
@@ -23,7 +23,7 @@
 }
 
 .site-nav {
-    padding: 1em;
+    padding: 1em 2em;
     display: flex;
     flex-wrap: wrap;
 }

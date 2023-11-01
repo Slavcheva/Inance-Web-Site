@@ -1,0 +1,11 @@
+/*Images*/
+img{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+.feature-box img,
+.service-box img{
+    width: 20%;
+}
