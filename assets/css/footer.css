@@ -15,7 +15,6 @@
 
 
 .site-footer .touch {
-    /*padding-bottom: 1.5em;*/
     padding-top: 5em;
     width: 80%;
     margin: auto;
@@ -43,8 +42,6 @@
 
 .site-footer .touch li {
     margin-bottom: 3em;
-    /*flex: 0 0 33.333333%;*/
-    /*max-width: 33.333333%;*/
     z-index: 10;
 }
 
