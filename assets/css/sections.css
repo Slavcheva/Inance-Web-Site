@@ -1,4 +1,3 @@
-/*Feature Section*/
 .feature-section .wrapper{
     padding-bottom: 0;
 }
@@ -67,14 +66,31 @@
     margin-bottom: 0;
 }
 
+.professional-section{
+    background: #D1E2FF;
+}
+
+.professional-section h2{
+    color: #0355CC;
+}
+
+.professional-section .image{
+    display: none;
+}
+
+
 @media screen and (min-width: 768px) {
 
     .feature-section li.feature-box {
         flex-basis: 32%;
     }
 
+    .professional-section .wrapper div,
     .about-section .wrapper div{
         flex: 1 1 48%;
+    }
+    .professional-section .image{
+        display: block;
     }
 }
 @media screen and (min-width: 1023px) {

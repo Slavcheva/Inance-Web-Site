@@ -10,9 +10,12 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 3em 1em;
+    padding: 5em 1em;
     gap: 1em;
+}
 
+h2{
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
